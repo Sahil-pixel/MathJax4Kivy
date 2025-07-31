@@ -5,7 +5,7 @@ Render beautiful LaTeX-style math equations in Kivy using MathJax on Android.
 
 Module   : MathJax4Kivy
 Author   : Sahil-Pixel
-Date     : 30 July 2025
+Date     : 31 July 2025
 GitHub   : https://github.com/Sahil-pixel/MathJax4Kivy
 MathJax  : https://www.mathjax.org/
 Kivy     : https://kivy.org/
@@ -239,8 +239,7 @@ Here's what the app looks like on Android:
   <img src="s0.jpg" width="200" style="display:inline-block; margin-right:10px;">
 </p>
 
-Watch demo:
-https://youtube.com/shorts/YOUR_VIDEO_ID
+
 
 ------------------------------------------------------------
 ## Pay for Support
