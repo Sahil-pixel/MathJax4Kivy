@@ -46,22 +46,25 @@ How to Use
 ------------------------------------------------------------
 buildozer.spec 
 ---------
+```
 # Permissions required
 android.permissions = INTERNET
 
 # Java source code directory
 android.add_src = ./java_code
-
+```
 KV Example:
 -----------
+```
 MathJaxImage:
     latex: r"\[ x^2 + y^2 = z^2" \]
     font_size: "16px"
     text_color: "#000000"
     background_color: "#FFFFFF"
-
+```
 Python Example:
 ---------------
+```
 from mathjax4kivy import MathJaxImage
 
 mjx = MathJaxImage(
@@ -71,7 +74,7 @@ mjx = MathJaxImage(
     background_color="#FFFFFF"
 )
 layout.add_widget(mjx)
-
+```
 Full Python Example:
 --------------------
 
@@ -175,12 +178,13 @@ if __name__ == "__main__":
 ------------------------------------------------------------
 Widget Properties
 ------------------------------------------------------------
+```
 
 - latex (str)            : MathJax expression string
 - font_size (str)        : Font size in px (e.g., "16px")
 - text_color (str)       : Foreground hex color (e.g., "#000000")
 - background_color (str) : Background hex color (e.g., "#FFFFFF")
-
+```
 ------------------------------------------------------------
 Rendering Pipeline
 ------------------------------------------------------------
@@ -217,6 +221,7 @@ Ensure that MathJax JavaScript and CSS are bundled with the app and loaded in th
 ------------------------------------------------------------
 Repo Structure
 ------------------------------------------------------------
+```
 /MathJax4Kivy/
 ├── main.py                        # Main Kivy demo using MathJaxImage
 ├── mathjax4kivy.py               # Defines MathJaxImage widget
@@ -226,7 +231,7 @@ Repo Structure
     └── org/mathjax/
         ├── MathJaxRenderer.java  # Java rendering backend using WebView
         └── BitmapUtil.java       # Converts Android Bitmap to RGBA byte[]
-
+```
 ------------------------------------------------------------
 ## 📷 Screenshot
 Here's what the app looks like on Android:
